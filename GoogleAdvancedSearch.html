@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <style>
+            .search1 {
+                margin-left:65%;
+                padding-right: 5px;
+                padding-top: 20px;
+                   }   
+            .border1 {
+                border-radius: 45px;
+                padding: 10px; 
+                width: 200px;
+                height: 50px; 
+                }
+            .middle1 {
+                padding: 5px;
+                text-align: center;    
+                }
+        </style>
     </head>
-    <body>
+      <body>
+        <div>  
+            <a href="GoogleSearch.html" class="search1">Google Search</a>
+        </div>  
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div class="middle1"><input type="text" name="q" class=border1>
+            </div>
+            <div class="middle1">   
+            <input type="submit" value="Google Advanced Search" class=border1>
+            </div>
         </form>
-    </body>
+      </body>
 </html>
