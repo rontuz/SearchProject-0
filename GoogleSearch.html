@@ -4,37 +4,21 @@
     <head>
         <title>Google Search</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous";>
-        <style>
-        .search1 {
-            margin-left:65%;
-            padding-right: 5px;
-            padding-top: 20px;
-               }   
-        .border1 {
-            border-radius: 45px;
-            padding: 10px; 
-            width: 200px;
-            height: 50px; 
-            }
-        .middle1 {
-            padding: 5px;
-            text-align: center;    
-            }
-        </style>
+        <link rel="stylesheet" href="Style.css">
     </head>
     <body>
-        <div>
-            <a href="GoogleAdvancedSearch.html" class="search1">Google Advanced Search</a>
-        </div> 
         <div>  
+            <a href="GoogleAdvancedSearch.html" class="search1">Google Advanced Search</a>
             <a href="GoogleImageSearch.html" class="search1">Google Image Search</a>
-        </div>  
-        <form action="https://google.com/search">
-            <div class="middle1"><input type="text" name="q" class=border1>
+        </div>
+        <div>    
+            <form action="https://google.com/search">
+                <div class="middle1"><input type="text" name="q" class=border1>
+                </div>
+                <div class="middle1">   
+                <input type="submit" value="Google Search" class=border1>
+                </div>
+            </form>
             </div>
-            <div class="middle1">   
-            <input type="submit" value="Google Search" class=border1>
-            </div>
-        </form>
     </body>
 </html>
